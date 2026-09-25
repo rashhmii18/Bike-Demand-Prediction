@@ -392,19 +392,6 @@ The application will open in a web browser.
 * The final model achieved an R² of 0.8322 on the unseen test set.
 * The model has more difficulty predicting extreme high-demand periods.
 
-## Future Improvements
-
-Possible improvements include:
-
-* Testing additional regression algorithms such as XGBoost or LightGBM.
-* Performing more extensive hyperparameter tuning.
-* Testing target transformations such as log1p.
-* Creating additional time-based features.
-* Exploring interactions between hour and working day.
-* Using time-series cross-validation.
-* Improving prediction of extreme demand periods.
-* Adding more visualizations to the Streamlit application.
-
 ## Conclusion
 
 This project successfully developed a machine learning model for predicting hourly bike rental demand.
